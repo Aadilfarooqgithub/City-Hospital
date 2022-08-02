@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Hospital</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>        
+
     <!-- font style link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -15,7 +21,7 @@
     <!-- css style link -->
     <link rel="stylesheet" href="style.css">
     <!-- fav-icon -->
-    <link href = "images/icon.jpg" type = "image/icon" rel = "icon">
+    <link href="images/icon.jpg" type="image/icon" rel="icon">
 </head>
 
 <body>
@@ -24,14 +30,15 @@
         <a href="#" class="logo"><i class="fa-solid fa-circle-h"> City &nbsp; Hospital</i></a>
 
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#team">Team</a>
-            <a href="#book">Book</a>
-            <a href="#review">Review</a>
-            <a href="#blogs">Blog</a>
-
+        
+           <a href="index.html">Home</a>
+           <a href="services.html">Services</a>
+           <a href="about.html">About</a>
+           <a href="team.html">Team</a>
+           <a href="book.html">Book</a>
+           <a href="review.html">Review</a>
+           <a href="blog.html">Blog</a>
+        </ul>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </header>
@@ -44,18 +51,41 @@
         </div>
         <div class="content">
             <h3>A Passion for Healing </h3>
-            <p>City hospital is an american multinational chain of private hospitals headquartered in san fransco. it
+            <p>City hospital is an american multinational chain of private hospitals headquartered in California. it
                 started its health care operations from new york where first city hospital was started. Later on, the
                 hospital chain purchased the healthcare branch of Escorts group and increased its strength in various
                 parts of the country.
-            </p>
-            <a href="#" class="btn">Read More </a>
-
+            <div class="container mt-4">
+                <button class="btn" data-toggle='modal' data-target='#my_division'>Read more</button>
+                <div id="my_division" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header modal-header lg">
+                                <div class="abc">
+                                    <img src="./images/baner-bg.jpg" alt="">
+                                </div>
+                                <p class="h5 modal-title">Content is the information contained within communication media. This
+                                    includes internet, cinema, television, radio, audio CDs, books, magazines, physical art, and
+                                    live event content. Its directed at an end-user or audience in the sectors of publishing,
+                                    art, and communication City hospital is an american multinational chain of private hospitals headquartered in California. it
+                                    started its health care operations from new york where first city hospital was started. Later on, the
+                                    hospital chain purchased the healthcare branch of Escorts group and increased its strength in various
+                                    parts of the country.
+                                </p></p>
+                                <button data-dismiss='modal' class="close">&times;</button>
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!-- home section end -->
 
-    <!-- icon section star -->
+    <!-- icon section start -->
     <section class="icons-container">
         <div class="icons">
             <i class="fas fa-user-md"></i>
@@ -79,347 +109,75 @@
         </div>
     </section>
     <!-- icon section end -->
-    
-    <!-- service section start -->
-    <section class="services" id="services">
-        <h1 class="heading"><span>Services</span></h1>
-        <hr>
 
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-notes-medical"></i>
-                <h3>Free Checkups</h3>
-                <p>One of the benefits of this hospital is a free medical check-up facility.</p>
-                <a href="#" class="btn"> Read more </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-ambulance"></i>
-                <h3>24/7 Ambulance</h3>
-                <p>we provide the free ambulance servives to the patients in need.</p>
-                <a href="#" class="btn"> Read more </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-user-md"></i>
-                <h3>Expert Doctors</h3>
-                <p>Each type of doctor undergoes their own unique training and education to allow them to diagnose and
-                    treat specific diseases and conditions.</p>
-                <a href="#" class="btn"> Rearn more </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-pills"></i>
-                <h3>Medicines</h3>
-                <p>Providing free medications increased adherence among patients and led to improvements in both their
-                    health outcomes and their perceptions of the quality of their care.</p>
-                <a href="#" class="btn"> Rearn more </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-procedures"></i>
-                <h3>Bed Facility</h3>
-                <p>A hospital bed or hospital cot is a bed specially designed for hospitalized patients or others in
-                    need of some form of health care.</p>
-                <a href="#" class="btn"> Rearn more </a>
-            </div>
-            <div class="box">
-                <i class="fas fa-heartbeat"></i>
-                <h3>Total Care</h3>
-                <p>Your family’s healthcare is our top priority. With four convenient Primary & Urgent Care locations,
-                    one Behavioral Health clinic, plus nine 24 hour Emergency Rooms.</p>
-                <a href="#" class="btn"> Rearn more </a>
-            </div>
-        </div>
-    </section>
+    <!-- service section start -->
     <!-- service section end -->
 
     <!-- about section start -->
-    <section class="about" id="about ">
-        <h1 class="heading"> <span>about</span> Us </h1>
-        <div class="row">
-            <div class="image">
-                <img src="./images/blog1.jpg" alt="Source not found">
-            </div>
-            <div class="content">
-                <h3>We take care of your healthy life ! </h3>
-                <p>Health problems, even minor ones, can interfere with or even overshadow other aspects of your life.
-                    Even relatively minor health issues such as aches, pains, lethargy, and indigestion take a toll on
-                    your happiness and stress levels. One way to improve your ability to cope with stress and feel
-                    better is to make a commitment to healthier habits.</p>
-                <p>Poor health habits can add stress to your life and also play a role in how well you are able to cope
-                    with stress. The stress that comes from poor health is significant.</p>
-                <a href="#" class="btn"> Read More </a>
-            </div>
-        </div>
-    </section>
     <!-- about section end -->
 
-    <!-- doctor section start-->
-    <section class="doctors" id="doctors">
-        <h1 class="heading"> Our <span>Team</span></h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="./images/teams/team1.jpg" alt="Source not found">
-                <h3>Dr. Emily</h3>
-                <span>Gynicologist</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/team8.jpg" alt="Source not found">
-                <h3> Dr. Harry</h3>
-                <span>Medicine</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/Female-Doctor.jpg" alt="Source not found">
-                <h3>Dr. Browny</h3>
-                <span>Surgeon</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/ciana.jpg" alt="Source not found">
-                <h3> Dr. caina </h3>
-                <span>Orthopedix</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/team10.jpg" alt="Source not found">
-                <h3>Dr. Jonathan</h3>
-                <span>Neurologist</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/team6.jpg" alt="Source not found">
-                <h3>Dr. kaity</h3>
-                <span>Dentist</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/tean5.jpg" alt="Source not found">
-                <h3>Dr. Abigial</h3>
-                <span>Cardiologist</span>
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-            </div>
-            <div class="box">
-                <img src="./images/teams/team7.jpg" alt="Source not found">
-                <h3>Dr. Brad Turner</h3>
-                <span>Paediatrician</span>
-
-                <div class="share">
-
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- doctor section end-->
+    
 
     <!-- booking section start-->
-    <section class="book" id="book">
-        <h1 class="heading"> <span>Book</span> Now </h1>
-        <div class="row">
-            <div class="image">
-                <img src="./images/booking-bg.jpg" alt="Source not found">
-            </div>
-            <form action="images/ambulance.jpg">
-                <h3>Book &nbsp;your&nbsp; Appointment</h3>
-                <input type="text" placeholder="Your Name..." class="box">
-                <input type="number" placeholder="your Number..." class="box">
-                <input type="email" placeholder="Your Email..." class="box">
-                <input type="date" class="box">
-                <input type="submit" value="book now" class="btn">
-            </form>
-        </div>
-    </section>
     <!-- booking section end-->
 
     <!-- review section start-->
-    <section class="review" id="review">
-        <h1 class="heading"> Client <span>Reviews</span> </h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="./images/teams/r2.jpg" alt="Source not found">
-                <h3>Peter Burg</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <!-- <i class="fas fa-star"></i> -->
-                    <!-- <i class="fas fa-star-half-alt"></i> -->
-                </div>
-                <p class="text">The entire process from check in to the end was seamless. The staff at the health check
-                    department was courteous, helpful and very attentive. I would highly recommend this hospital to
-                    anyone looking for something similar services..</p>
-            </div>
-            <div class="box">
-                <img src="./images/teams/r1.jpg" alt="Source not found">
-                <h3>Christaina</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <!-- <i class="fas fa-star-half-alt"></i> -->
-                </div>
-                <p class="text">It's very well mannered staff good coordination with patients. Dr. katty assisted very
-                    well and taken good care towards patients. Overall experience is satisfactory.</p>
-            </div>
-            <div class="box">
-                <img src="./images/teams/r3.jpg" alt="Source not found">
-                <h3>Mark Benz</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <p class="text">Since long i was suffering from blood in cough but no doctor except Dr. Harry identified
-                    my problem and started the diagnosis. He is very polite and listens to each patient carefully and
-                    clearly explains the required treatment to be done.</p>
-            </div>
-        </div>
-    </section>
     <!-- review section end-->
 
     <!-- blog section start-->
-    <section class="blogs" id="blogs">
-        <h1 class="heading"> <span>Blog</span> </h1>
-        <div class="box-container">
-            <div class="box">
-                <div class="image">
-                    <img src="./images/b1.jpg" alt="Source not found">
-                </div>
-                <div class="content">
-                    <!-- <div class="icon">
-                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
-                        <a href="#"> <i class="fas fa-user"></i> By Admin </a>
-                    </div> -->
-                    <h3>Overlake Medical Center</h3>
-                    <p>Dedicated to mothers and infants, the Overlake Medical Center blog explores everything parents
-                        need to know about raising a newborn: food choices, sleeping advice, choosing a pediatrician,
-                        the works.</p>
-                    <a href="#" class="btn"> Read More </a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="./images/b2.jpg" alt="Source not found">
-                </div>
-                <div class="content">
-                    <!-- <div class="icon">
-                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
-                        <a href="#"> <i class="fas fa-user"></i> By Admin </a>
-                    </div> -->
-                    <h3>State of Health </h3>
-                    <p>This refreshing blog dives deeper into health topics than most, offering no-nonsense takes about
-                        the specific medical information patients need to know. At the same time, the writing is
-                        accessible and covers a broad array of health topics.</p>
-                    <a href="#" class="btn"> Read More </a>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img src="./images/b3.jpg" alt="Source not found">
-                </div>
-                <div class="content">
-
-                    <h3>Thriving </h3>
-                    <p>"Thriving" is primarily filled with engaging stories about patients and their paths to care, but also includes salient medical advice and practical tips.</p>
-                    <a href="#" class="btn"> Read More </a>
-                </div>
-            </div>
-        </div>
-    </section>
     <!-- blog section end-->
 
-    <!-- footer section start-->
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <h3>Links</h3>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Home </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Services </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> About </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Doctors </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Book </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Review </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Blog </a>
-            </div>
-
-            <div class="box">
-                <h3> Services</h3>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Dental Care </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Physio Therapy </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Cardiology </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Diagonosis </a>
-                <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Service </a>
-            </div>
-
-            <div class="box">
-                <h3>Contact us</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +9213462467 </a>
-                <a href="#"> <i class="fas fa-phone"></i> +4326383949 </a>
-                <a href="#"> <i class="fas fa-envelope"></i> <span>multispeciality@gamil.com</span> </a>
-                <a href="#"> <i class="fas fa-envelope"></i> <span>hospital@hotmail.com</span> </a>
-                <a href="#"> <i class="fas fa-map-marker-alt"></i>New york city </a>
-            </div>
-
-            <div class="box">
-                <h3>Follow Us</h3>
-                <a href="https://www.facebook.com"> <i class="fab fa-facebook"></i> facebook </a>
-                <a href="https://www.facebook.com"> <i class="fab fa-twitter"></i> Twitter </a>
-                <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
-            </div>
-
+   <!-- footer section start-->
+ <section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Links</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Home </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Services </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> About </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Doctors </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Book </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Review </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Blog </a>
         </div>
 
-        <div class="credit"> <span> &copy; </span>Copyright 2000-2022 by san fransco | all right reserved</div>
+        <div class="box">
+            <h3> Services</h3>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Dental Care </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Physio Therapy </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Cardiology </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Diagonosis </a>
+            <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Service </a>
+        </div>
 
-    </section>
-    <!-- footer section end-->
+        <div class="box">
+            <h3>Contact us</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +9213462467 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +4326383949 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> <span>multispeciality@gamil.com</span> </a>
+            <a href="#"> <i class="fas fa-envelope"></i> <span>hospital@hotmail.com</span> </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>New york city </a>
+        </div>
 
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com"> <i class="fab fa-facebook"></i> facebook </a>
+            <a href="https://www.facebook.com"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="https://www.instagram.com"> <i class="fab fa-instagram"></i> instagram </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> <span> &copy; </span>Copyright 2000-2022 city hospital | all right reserved</div>
+
+</section>
+<!-- footer section end-->
 
 
 
 
     <!-- javascript link -->
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
