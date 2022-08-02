@@ -450,6 +450,20 @@ section:nth-child(even){
 }
 
 
+#btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    /* box-shadow: var(--box-shadow); */
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+}
+
 
 /*media queries*/
 @media (max-width: 991px){
