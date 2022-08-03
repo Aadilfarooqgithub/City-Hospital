@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>City Hospital</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 
      <!-- font style link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -33,8 +40,10 @@
        <a href="book.html">Book</a>
        <a href="review.html">Review</a>
        <a href="blog.html">Blog</a>
+       <a href="contact.html">Contact</a>
     </ul>
     </nav>
+    <input type="submit" value="Register" id="btn">
     <div id="menu-btn" class="fas fa-bars"></div>
 </header>
 <!-- header section ends-->
@@ -42,7 +51,7 @@
 <!-- service section start -->
 
     <section class="services" id="services">
-        <h1 class="heading"><span>Services</span></h1>
+        <h1 class="heading"> <span> <b>services </b></span></h1>
     
 
         <div class="box-container">
@@ -50,41 +59,134 @@
                 <i class="fas fa-notes-medical"></i>
                 <h3>Free Checkups</h3>
                 <p>One of the benefits of this hospital is a free medical check-up facility.</p>
-                <a href="#" class="btn"> Read more </a>
+                <div class="container mt-4">
+                    <button class="btn" data-toggle='modal' data-target='#my_division2'>Read more</button>
+                    <div id="my_division2" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                        <div class="modal-dialog modal-md modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header modal-header lg">
+                                    <p class="h4 modal-title text-info mx-3 my-3" id="aaa">Health check-ups are designed not only to detect medical issues, but also to identify risk factors and illnesses before they start to cause problems. Health check-ups aim to not only help the person to prevent illnesses and its complications but also to make changes in the lifestyle for long-term healthy life. A good health check-up should include end-to-end examinations such as: Discussion of medical history,
+                                        General physical examination,
+                                        Blood test (Blood sugar and Cholesterol),
+                                        Urine test,
+                                        Blood pressure reading,
+                                        Heart rate measurement etc  </p>
+                                    <button data-dismiss='modal' class="close">&times;</button>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="box">
                 <i class="fas fa-ambulance"></i>
                 <h3>24/7 Ambulance</h3>
-                <p>we provide the free ambulance servives to the patients in need.</p>
-                <a href="#" class="btn"> Read more </a>
+                <p>we provide the free ambulance servives to the patients in need.We strive to provide secure transport for mental health patients. We want to offer a comfortable and safe environment for them to travel in.</p>
+                <div class="container mt-4">
+                    <button class="btn" data-toggle='modal' data-target='#my_division3'>Read more</button>
+                    <div id="my_division3" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                        <div class="modal-dialog modal-md modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header modal-header lg">
+                                    <p class="h3 modal-title text-info  mx-3 my-3" id="aaa">Whether you are dealing with a low or high-risk individual, secure transport can be the solution you’re looking for when dealing with mentally ill patients. Our secure transport service gives patients the highest levels of comfort, safety and quality of care throughout their time with us.
+
+                                        Our customised mental health ambulances and specialist crews come together to deliver the best possible travel experience for mental health patients. Our secure ambulance transport systems are equipped with medical equipment to handle medical emergencies, whether mental health-related or otherwise. </p>
+                                    <button data-dismiss='modal' class="close">&times;</button>
+                                </div>
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="box">
                 <i class="fas fa-user-md"></i>
                 <h3>Expert Doctors</h3>
                 <p>Each type of doctor undergoes their own unique training and education to allow them to diagnose and
                     treat specific diseases and conditions.</p>
-                <a href="#" class="btn"> Read more </a>
+                    <div class="container mt-4">
+                        <button class="btn" data-toggle='modal' data-target='#my_division4'>Read more</button>
+                        <div id="my_division4" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                            <div class="modal-dialog modal-md modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header lg">
+                                        <p class="h4 modal-title text-info mx-3 my-3" id="aaa">Our Doctors spend as much time with you, as is necessary to understand all your health related problems, arrive at a proper diagnosis and recommend a line of treatment. You can ask as many questions to our Doctors and they will be happy to answer those.
+
+                                            Healthspring members have access to a doctor 24x7, face-to-face and over a call, especially in case of a medical emergency, wherein our doctor reaches your place in the shortest time possible with an Ambulance and a fully-equipped medical emergency kit. </p>
+                                        <button data-dismiss='modal' class="close">&times;</button>
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div class="box">
                 <i class="fas fa-pills"></i>
                 <h3>Medicines</h3>
                 <p>Providing free medications increased adherence among patients and led to improvements in both their
                     health outcomes and their perceptions of the quality of their care.</p>
-                <a href="#" class="btn"> Read more </a>
+                    <div class="container mt-4">
+                        <button class="btn" data-toggle='modal' data-target='#my_division5'>Read more</button>
+                        <div id="my_division5" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                            <div class="modal-dialog modal-md modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header lg">
+                                        <p class="h4 modal-title text-info  mx-3 my-3" id="aaa">We  proposed US$5.4-billion “free medicine for all” policy promises to be a game-changer for the lives of millions of poor and vulnerable people, many of whom cannot afford their medications or are not being reached by public health facilities.</p>
+                                        <button data-dismiss='modal' class="close">&times;</button>
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div class="box">
                 <i class="fas fa-procedures"></i>
                 <h3>Bed Facility</h3>
                 <p>A hospital bed or hospital cot is a bed specially designed for hospitalized patients or others in
                     need of some form of health care.</p>
-                <a href="#" class="btn"> Read more </a>
+                    <div class="container mt-4">
+                        <button class="btn" data-toggle='modal' data-target='#my_division6'>Read more</button>
+                        <div id="my_division6" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                            <div class="modal-dialog modal-md modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header lg">
+                                        <p class="h4 modal-title text-info mx-3 my-3" id="aaa">One advantage hospital beds have over ordinary home beds is that they can adjust their height, as well as the head and the foot of the bed. Many patients who are awake in bed prefer to elevate their head, feet, and knees for therapeutic reasons and comfort. When sleeping, many patients require a flat, level surface to get the rest they need; when resting while awake, they can adjust to a seated position to read or watch television. Different models bring different settings for posture adjustment.</p>
+                                        <button data-dismiss='modal' class="close">&times;</button>
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div class="box">
                 <i class="fas fa-heartbeat"></i>
                 <h3>Total Care</h3>
                 <p>Your family’s healthcare is our top priority. With four convenient Primary & Urgent Care locations,
                     one Behavioral Health clinic, plus nine 24 hour Emergency Rooms.</p>
-                <a href="#" class="btn"> Read more </a>
+                    <div class="container mt-4">
+                        <button class="btn" data-toggle='modal' data-target='#my_division7'>Read more</button>
+                        <div id="my_division7" class="modal fade" data-keyboard='false' data-backdrop='static'>
+                            <div class="modal-dialog modal-md modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header lg">
+                                        <p class="h4 modal-title text-info mx-3 my-3" id="aaa">Total Care recognizes doctors that focus on health care instead of sick care. These doctors go above and beyond to enhance the overall health of their patients, providing preventive services and wellness coaching, as well as working with patients with chronic conditions to better meet their care needs. Total Care is coordinated, patient-focused and, in many cases, more affordable healthcare.</p>
+                                        <button data-dismiss='modal' class="close">&times;</button>
+                                    </div>
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>
