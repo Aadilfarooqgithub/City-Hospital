@@ -127,6 +127,10 @@ section:nth-child(even){
     flex: 1 1 45rem;
 }
 
+.home .content .a1{
+    text-decoration: none;
+}
+
 .home .content h3{
     font-size: 4.5rem;
     color: var(--black);
@@ -143,6 +147,7 @@ section:nth-child(even){
 #aaa{
     text-align: justify;
     margin-right: 2rem;
+
 }
 
       /*------------------icons start----------------------------- */
@@ -604,6 +609,7 @@ input[type=text], select, textarea {
     padding:5px 5px;
     border-radius: 4px;
     color: #1183e0;
+    text-decoration: none;
 
   }
   #c:hover{
@@ -612,6 +618,7 @@ input[type=text], select, textarea {
   }
 
   .a1{
+    text-decoration: none;
     border: 2px solid #1183e0;
     padding:5px 5px;
     border-radius: 4px;
@@ -628,7 +635,7 @@ input[type=text], select, textarea {
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
-    text-decoration: none;
+    
   }
   
   /*---------------------- Readmore starts---------------- */
