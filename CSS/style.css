@@ -604,7 +604,7 @@ input[type=text], select, textarea {
     margin-left: 40%;
   }
 
-  #c{
+  #register{
     border: 2px solid #1183e0;
     padding:5px 5px;
     border-radius: 4px;
@@ -612,7 +612,7 @@ input[type=text], select, textarea {
     text-decoration: none;
 
   }
-  #c:hover{
+  #register:hover{
     background-color: #1183e0;
     color: white;
   }
